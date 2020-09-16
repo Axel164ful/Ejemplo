@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="{% static 'peticion/estilos.css' %}">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="margen"></div>
+			
+		</div>
+
+
+
+		<div class= row>
+			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cuerpo2">
+				<h2 class="text-center"></h2>
+				<div id ="fotito"><img src="{% static 'images/frutas1.gif'%} "></div>
+				<p class="text-center" id="texto2">Al final solo es una lista sin importancia de lo que pienso de ti</p>
+				<ul class="text-center" id="texto2">
+  					<li>Buena</li>
+  					<li>Amable</li>
+  					<li>Sicera</li>
+  					<li>Inteligente</li>
+  					<li>Apacionada</li>
+				</ul>
+				<p class="text-center" id="texto2">Creo que me podria aventar una lista muy grande pero tampoco se trata de ser pesado, el punto es que eres grande, como aquellos personajes descritos en esas historias sobre heroes, esas historias que tracienden a inmortalidad</p>
+				<a href="{%url 'peticion:pedir'%}" class="btn btn-success" id="button"><---- O bien regresa</a>
+				<a href="{%url 'peticion:pedir3'%}" class="btn btn-success" id="button2">Ya casi sigue adelante----></a>
+			</div>
+			
+		</div>
+
+
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="pie"></div>
+			
+		</div>
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+/* [class*= "col-"]{
+	float:left;
+	border:1px solid black;
+	padding:auto;
+}
+*/
+
+
+
+@media (min-width: 1200px){
+	#margen, #pie{
+		height: 10vh;
+		background :rgba(139, 222, 222) ;
+		font-weight: bold;
+	}
+	#cuerpo, #cuerpo2{
+		height: 120vh;
+	}
+	#cuerpo2{
+		background: white url("images/fondo-abeja-patron_42349-32.JPG");
+	}
+	#fotito{  
+	position: relative;
+	margin-top: 04vh;
+	margin-left: 50vh ;
+	}
+	#texto{
+		font-weight: bolder;
+	}
+	#texto2{
+		margin-top:12vh;
+		font-weight: bolder;
+		font-size: 30px ;
+	}
+	#button{margin-left:45vh; 
+		float: left;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1199px) and (min-width:992px){
+
+	#margen, #pie{
+		height: 10vh;
+		background :rgba(139, 222, 222) ;
+		font-weight: bold;
+	}
+	#cuerpo, #cuerpo2{
+		height: 150vh;
+	}
+	#cuerpo2{
+		background: white url("images/fondo-abeja-patron_42349-32.JPG");
+	}
+	#fotito{  
+	position: relative;
+	margin-top: 04vh;
+	margin-left: 50vh ;
+	}
+	#texto{
+		font-weight: bolder;
+	}
+	#texto2{
+		margin-top:12vh;
+		font-weight: bolder;
+		font-size: 30px ;
+	}
+	#button{margin-left:45vh; 
+		float: left;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) and (min-width:768px){
+	#margen, #pie{
+		height: 10vh;
+		background :rgba(139, 222, 222) ;
+		font-weight: bold;
+	}
+	#cuerpo, #cuerpo2{
+		height: 160vh;
+	}
+	#cuerpo2{
+		background: white url("images/fondo-abeja-patron_42349-32.JPG");
+	}
+	#fotito{  
+	position: relative;
+	margin-top: 04vh;
+	margin-left: 20vh ;
+	}
+	#texto{
+		font-weight: bolder;
+	}
+	#texto2{
+		margin-top:12vh;
+		font-weight: bolder;
+		font-size: 30px ;
+	}
+	#button{margin-left:25vh; 
+		float: left;
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+	#margen, #pie{
+		height: 10vh;
+		background :rgba(139, 222, 222) ;
+		font-weight: bold;
+	}
+
+	#cuerpo, #cuerpo2{
+		height: 280vh;
+	}
+	#cuerpo2{
+		background: white url("images/fondo-abeja-patron_42349-32.JPG");
+	}
+
+	#fotito{  
+	position: relative;
+	margin-top: 04vh;
+	margin-left: 0vh ;
+	}
+	#texto{
+		font-weight: bolder;
+	}
+
+	#texto2{
+		margin-top:12vh;
+		font-weight: bolder;
+		font-size: 30px ;
+			}
+
+	#button{margin-left:5vh; }
+
+
+
+
+}
+

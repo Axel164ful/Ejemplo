@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>¿Sentirse bien?</title>
+	<link rel="stylesheet" href="{% static 'peticion/estilos.css' %}">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="margen"></div>
+			
+		</div>
+
+
+		<div class= row>
+			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cuerpo2">
+				<h2 class="text-center" id= "texto">Hola, Beth cree este espacio pues por consejo, es una forma de expresarme pues.</h2>
+				<h2 class="text-center">Ya se, no te interesa, asi que solo intentare sacar una sonrrisa y expresarme. </h2>
+				<div id ="fotito"><img src="{% static 'images/fruit.gif'%} "></div>
+				<p class= "text-center" id="texto2">¿Un chiste tal vez?</p>
+				<p class= "text-center" id="texto2" >La realidad es que prefiero disculparme desde lo mas profundo de mi corazón por aquellas imagenes de mal gusto, no es mi cuerpo y a decir verdad son sacadas de la red pero aun asi estuvo demasiado mal eso.Tampoco soy un santo pero no soy exactamente eso que creés</p>
+				<a href="{%url 'peticion:pedir2'%}" class="btn btn-success" id="button">intenta continuar por favor</a>
+				
+			</div>
+			
+		</div>
+
+
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="pie"></div>
+			
+		</div>
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>
